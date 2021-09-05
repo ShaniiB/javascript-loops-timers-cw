@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+}
+
+#guy {
+    background: #fff no-repeat top left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    animation: guy-walk 500ms steps(10) infinite;
+}
+
+@keyframes guy-walk {
+  10% {
+    background-image: url("guy1.png");
+    animation: guy-walk 500ms steps(10) infinite;
+    }
+  20% {
+    background-image: url("guy2.png");
+    animation: guy-walk 500ms steps(10) infinite;
+    }
+  30% {
+    background-image: url("guy3.png");
+    animation: guy-walk 500ms steps(10) infinite;
+    }
+  40% {
+    background-image: url("guy4.png");
+    animation: guy-walk 500ms steps(10) infinite;
+    }   
+  50% {
+    background-image: url("guy5.png");
+    animation: guy-walk 500ms steps(10) infinite;
+    }
+  60% {
+    background-image: url("guy6.png");
+    animation: guy-walk 500ms steps(10) infinite;
+    }
+  70% {
+    background-image: url("guy7.png");
+    animation: guy-walk 500ms steps(10) infinite;
+    }
+  80% {
+    background-image: url("guy8.png");
+    animation: guy-walk 500ms steps(10) infinite;
+    }   
+  90% {
+    background-image: url("guy9.png");
+    animation: guy-walk 500ms steps(10) infinite;
+    }
+  100% {
+    background-image: url("guy1.png");
+    animation: guy-walk 500ms steps(10) infinite;
+    }   
+}
