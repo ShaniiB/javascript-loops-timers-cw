@@ -1,0 +1,40 @@
+body {
+    background-color: whitesmoke;
+}
+#world {
+    background-color: green;
+    height: 160px;
+}
+
+.mario {
+    position: absolute;
+    top: 35px;
+    background: url('./Mario1.png');
+    height: 98px;
+    width: 48px;
+    overflow: hidden;
+    animation: mario 500ms infinite;
+}
+@keyframes moveright {
+from {
+    background-image: url('./Mario1.png');
+    animation: mario 500ms infinite;
+     }
+
+50%   {
+    background-image: url('./Mario2.png');
+    animation: mario 500ms infinite;
+     }
+to   {
+    background-image: url('./Mario3.png');
+    animation: mario 500ms infinite;
+     }               
+}
+
+@keyframes moveleft {
+    
+}
+
+@keyframes jump {
+    
+}
